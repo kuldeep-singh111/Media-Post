@@ -1,0 +1,72 @@
+.app-container {
+  display: flex;
+}
+
+.content {
+  width: 100%;
+}
+
+.sidebar {
+  min-height: 730px;
+
+}
+
+.post-card {
+  margin: 20px 50px;
+  max-width: 30rem;
+
+
+}
+
+.hastag {
+  margin: 0px 3px;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.reaction {
+  margin: 15px 0px 0px 0px;
+}
+
+.create-post {
+  width: 80%;
+  margin-top: 70px;
+  margin-left: 10%;
+
+
+}
+
+.welcome-message {
+  margin: 125px 0px;
+}
+
+.spinner {
+
+  margin: 16% 0;
+}
+
+
+@media only screen and (max-width: 560px) {
+
+  .post-card {
+    width: 20rem;
+  }
+}
+
+
+@media only screen and (max-width: 420px) {
+
+  .sidebar {
+    width: 130px;
+  }
+}
+
+
+@media only screen and (max-width: 390px) {
+
+  .post-card {
+    width: 12rem;
+  }
+}
